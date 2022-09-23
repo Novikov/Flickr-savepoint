@@ -6,5 +6,41 @@
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+
+    <!-- New -->
+    <color name="transparent">#00FFFFFF</color>
+    <color name="emerald_green">#2CB896</color>
+    <color name="emerald_green_15">#262CB896</color>
+    <color name="dark_green">#00936F</color>
+    <color name="graphite">#293548</color>
+    <color name="dark_graphite">#19212F</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_transparent">#40FFFFFF</color>
+    <color name="superlight_gray">#EFF2F5</color>
+    <color name="mercury">#E6E6E6</color>
+    <color name="yellow">#F9D558</color>
+    <color name="grandis">#FFD481</color>
+    <color name="yellow_18">#2EF9D558</color>
+    <color name="light_grey">#8A99A9</color>
+    <color name="attention_red">#EB4054</color>
+    <color name="attention_red_15">#26EB4054</color>
+    <color name="mid_gray">#6A6A6D</color>
+    <color name="geyser">#D3DAE2</color>
+    <color name="catskill_white">#E4E9F2</color>
+    <color name="oxford_blue">#37455A</color>
+    <color name="mirage">#19212F</color>
+    <color name="alabaster">#F7F7F7</color>
+
+    <!--  Primary  -->
+    <color name="primary">@color/emerald_green</color>
+    <color name="primary_12">#1F2CB896</color>
+    <color name="secondary">@color/graphite</color>
+    <color name="secondary_80">#CC293548</color>
+
+    <!-- Text-->
+    <color name="text_color_default">@color/graphite</color>
+    <color name="text_color_primary">@color/emerald_green</color>
+    <color name="text_color_gray">@color/light_grey</color>
+    <color name="text_color_white">@color/white</color>
+    <color name="text_color_error">@color/attention_red</color>
 </resources>

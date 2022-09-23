@@ -4,10 +4,18 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="../../../../layout/custom_preview.xml" value="0.14628623188405798" />
+        <entry key="app/src/main/res/drawable-v24/background_emerald_green_15_stroke_primary_corner_10.xml" value="0.203" />
+        <entry key="app/src/main/res/drawable-v24/background_superlight_gray_radius_10.xml" value="0.203" />
+        <entry key="app/src/main/res/drawable-v24/edit_text_color_selector.xml" value="0.203" />
+        <entry key="app/src/main/res/drawable/bcg.xml" value="0.203" />
+        <entry key="app/src/main/res/drawable/bcg_emerald_green_15_stroke_primary.xml" value="0.1575" />
+        <entry key="app/src/main/res/drawable/bcg_superlight_gray_radius_10.xml" value="0.203" />
+        <entry key="app/src/main/res/drawable/edit_text_bcg_color_selector.xml" value="0.1575" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.114" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.15989583333333332" />
         <entry key="app/src/main/res/layout/fragment_login.xml" value="0.25" />
         <entry key="app/src/main/res/layout/view_button_with_loader.xml" value="0.16510416666666666" />
-        <entry key="app/src/main/res/layout/view_input_text_view.xml" value="0.16510416666666666" />
+        <entry key="app/src/main/res/layout/view_input_text_view.xml" value="0.335" />
       </map>
     </option>
   </component>
