@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/bcg_emerald_green_15_stroke_primary" android:state_focused="true" android:state_enabled="true"/>
+    <item android:drawable="@drawable/bcg_superlight_gray_radius_10" />
+</selector>
