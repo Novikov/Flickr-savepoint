@@ -11,6 +11,5 @@ class App : Application() {
     override fun onCreate() {
         super.onCreate()
         appComponent = DaggerAppComponent.create()
-        val retrofit = appComponent.retrofit()
     }
 }
