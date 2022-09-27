@@ -1,23 +1,23 @@
 package com.umbrella.flickr.presentation.login
 
-import android.os.Bundle
+import android.content.Context
 import androidx.fragment.app.Fragment
+import androidx.fragment.app.viewModels
 import com.umbrella.flickr.R
-import com.umbrella.flickr.domain.repository.FlickrRepository
 import com.umbrella.flickr.utils.appComponent
-import retrofit2.Retrofit
 import javax.inject.Inject
 
 class LoginFragment : Fragment(R.layout.fragment_login) {
 
     @Inject
-    lateinit var retrofit: Retrofit
+    lateinit var loginViewModelFactory: LoginViewModel.Factory.Factory
 
-    @Inject
-    lateinit var repository: FlickrRepository
+    private val viewModel: LoginViewModel by viewModels {
+        loginViewModelFactory.create()
+    }
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
+    override fun onAttach(context: Context) {
         requireContext().appComponent.inject(this)
+        super.onAttach(context)
     }
 }
