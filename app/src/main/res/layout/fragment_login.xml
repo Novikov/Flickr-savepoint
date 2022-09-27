@@ -5,7 +5,7 @@
     android:layout_height="match_parent">
 
     <com.umbrella.flickr.custom_view.InputTextView
-        android:id="@+id/inputTextView"
+        android:id="@+id/loginInput"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="@dimen/grid_4"
@@ -17,7 +17,7 @@
         app:layout_constraintVertical_bias="0.4" />
 
     <com.umbrella.flickr.custom_view.InputTextView
-        android:id="@+id/inputTextView2"
+        android:id="@+id/passwordInput"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="@dimen/grid_4"
@@ -25,15 +25,16 @@
         android:hint="@string/password"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/inputTextView" />
+        app:layout_constraintTop_toBottomOf="@+id/loginInput" />
 
     <com.umbrella.flickr.custom_view.ButtonWithLoader
+        android:id="@+id/loginButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="@dimen/grid_3"
         android:layout_marginTop="@dimen/grid_2"
-        app:layout_constraintEnd_toEndOf="@+id/inputTextView2"
+        app:layout_constraintEnd_toEndOf="@+id/passwordInput"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/inputTextView2" />
+        app:layout_constraintTop_toBottomOf="@+id/passwordInput" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

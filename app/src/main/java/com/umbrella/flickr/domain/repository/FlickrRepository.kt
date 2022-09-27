@@ -1,3 +1,7 @@
 package com.umbrella.flickr.domain.repository
 
-interface FlickrRepository
+import com.umbrella.flickr.domain.models.RequestToken
+
+interface FlickrRepository {
+    suspend fun getRequestToken(): RequestToken
+}

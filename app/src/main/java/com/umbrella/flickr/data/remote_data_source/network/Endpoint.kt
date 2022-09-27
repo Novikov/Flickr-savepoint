@@ -1,4 +1,4 @@
-package com.umbrella.flickr.data.remote_data_source
+package com.umbrella.flickr.data.remote_data_source.network
 
 import java.net.URI
 
@@ -11,7 +11,7 @@ object Endpoints {
     val DEV: Endpoint =
         EndpointImpl(
             title = "Dev",
-            url = URI.create("https://api.socium.in/api/")
+            url = URI.create("https://www.flickr.com/")
         )
 }
 

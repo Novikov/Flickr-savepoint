@@ -5,6 +5,7 @@ import android.util.AttributeSet
 import android.view.LayoutInflater
 import android.widget.FrameLayout
 import com.umbrella.flickr.databinding.ViewButtonWithLoaderBinding
+import com.umbrella.flickr.utils.onClick
 
 class ButtonWithLoader @JvmOverloads constructor(
     context: Context,
@@ -20,4 +21,8 @@ class ButtonWithLoader @JvmOverloads constructor(
         set(value) {
             binding.button.text = value
         }
+
+    fun setOnClick(callback: () -> Unit) {
+        binding.button.onClick { callback.invoke() }
+    }
 }
