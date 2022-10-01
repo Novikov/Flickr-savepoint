@@ -6,6 +6,7 @@ import com.umbrella.flickr.BuildConfig
 import com.umbrella.flickr.data.remote_data_source.network.Endpoint
 import com.umbrella.flickr.data.remote_data_source.network.Endpoints
 import com.umbrella.flickr.data.remote_data_source.network.NetworkConst
+import com.umbrella.flickr.data.remote_data_source.network.api_service.GalleriesApiService
 import com.umbrella.flickr.data.remote_data_source.network.api_service.LoginApiService
 import dagger.Module
 import dagger.Provides
@@ -72,5 +73,10 @@ object NetworkModule {
     @Provides
     fun provideLoginApiService(retrofit: Retrofit): LoginApiService {
         return retrofit.create(LoginApiService::class.java)
+    }
+
+    @Provides
+    fun provideGalleryApiService(retrofit: Retrofit): GalleriesApiService {
+        return retrofit.create(GalleriesApiService::class.java)
     }
 }

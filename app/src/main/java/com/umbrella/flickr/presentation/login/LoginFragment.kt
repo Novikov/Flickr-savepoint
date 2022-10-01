@@ -24,6 +24,7 @@ class LoginFragment : Fragment(R.layout.fragment_login) {
 
     override fun onAttach(context: Context) {
         requireContext().appComponent.inject(this)
+//        Log.i("ASDASDASDASDASD", "$loginViewModelFactory")
         super.onAttach(context)
     }
 

@@ -15,7 +15,7 @@ class LoginViewModel @Inject constructor(private val flickrRepository: FlickrRep
     fun getRequestToken() {
         viewModelScope.launch {
             runCatching {
-                flickrRepository.getRequestToken()
+                flickrRepository.getPhotoList()
             }.onSuccess {
                 Log.i("ASDASDASD", "sucess")
             }
