@@ -32,7 +32,7 @@ class LoginViewModel @Inject constructor(private val flickrRepository: FlickrRep
             return LoginViewModel(flickrRepository) as T
         }
 
-        class Factory @Inject constructor(val flickrRepository: FlickrRepository) {
+        class NestedFactory @Inject constructor(val flickrRepository: FlickrRepository) {
             fun create(): LoginViewModel.Factory {
                 return LoginViewModel.Factory(flickrRepository)
             }

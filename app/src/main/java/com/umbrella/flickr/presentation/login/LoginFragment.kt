@@ -15,7 +15,8 @@ import javax.inject.Inject
 class LoginFragment : Fragment(R.layout.fragment_login) {
 
     @Inject
-    lateinit var loginViewModelFactory: LoginViewModel.Factory.Factory
+    lateinit var loginViewModelFactory: LoginViewModel.Factory.NestedFactory
+
     private var viewBinding: FragmentLoginBinding? = null
 
     private val viewModel: LoginViewModel by viewModels {
